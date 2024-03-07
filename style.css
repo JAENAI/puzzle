@@ -1,0 +1,86 @@
+/*
+NOM : RUGENGANDE IHIMBAZWE
+Prénom : Jaenai
+
+NOM : FAYEZ
+Prénom : Karim Shady Monir
+
+*/
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: rgb(60, 95, 126);
+}
+h1, footer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#container{
+	display: flex;
+	flex-flow: column;	
+}
+.puzzledescription{
+	margin: auto;
+	width: 60%;
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+}
+#shuffle{
+	margin: auto;
+	width: 5%;
+	display: flex;
+	border-radius: 10px;
+	justify-content: center;
+	align-items: center;
+}
+#shuffle:hover{
+	color: darkblue;
+	background-color: #fff;
+}
+#output{
+	margin: auto;
+	width: 60%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size:large ;
+	font-style: bold;
+	color:#fff;
+}
+footer{
+	font-size: 90%;
+	font-style: italic;
+}
+#puzzlearea{
+	margin: auto;
+	width: 60%;
+	width: 368px;
+	height: 368px;
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #fff;
+}
+.tuile{
+	width: 90px;
+	height: 90px;
+	color: darkslategray;
+	font-size:larger;
+	font-style: normal;
+	border: 1px solid grey;
+    background-size: contain;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-shadow: 1px 0 0 #fff,
+	-1px 0 0 #fff,
+	0 1px 0 #fff,
+	0 -1px 0 #fff,
+	1px 1px #fff,
+	-1px -1px 0 #fff,
+	1px -1px 0 #fff,
+	-1px 1px 0 #fff;
+}
